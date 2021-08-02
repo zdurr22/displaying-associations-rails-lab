@@ -1,0 +1,9 @@
+<h1>All Artists:</h1><br>
+<% @artists.each do |a| %>
+<ol>
+    <li><%= a.name %></li>
+    <ul>
+       <li> <%= a.song_count %> song</li>
+    </ul>
+</ol>
+<% end %>
